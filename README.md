@@ -26,7 +26,6 @@ vagrant gem install vagrant-vbguest
 ===========
 ```bash
 vagrant box add base http://dl.dropbox.com/u/1537815/precise64.box
-vagrant init
 vagrant up
 ```
 
@@ -40,6 +39,7 @@ vagrant reload
 
 ### Notes
 ===========
+* If you make changes to httpd.conf reload your settings with ```vagrant provision```
 * To ssh into the server type ```vagrant ssh```
 * Mysql login: ```vagrant```
 * Mysql pass: ```vagrant```
