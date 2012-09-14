@@ -12,7 +12,7 @@ Note: all settings are stored in ``` ~/.vagrant.d ```. If you want to do a clean
 ### Clone the repo
 ===========
 ```bash
-git checkout git@github.com:shanecowherd/vagrant-php.git
+git clone https://github.com/shanecowherd/vagrant-php.git
 cd vagrant-php
 ```
 
