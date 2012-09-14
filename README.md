@@ -47,3 +47,8 @@ vagrant reload
 * Mysql pass: ```vagrant```
 * HTTP Port: ```8081``` but in your code you can use ```80```
 * Mysql Port: ```13306``` but in your code you can use ```3306```
+
+### Remove VM
+===========
+* Suspend the VM ```vagrant suspend```
+* Delete the VM ```vagrant destroy```
