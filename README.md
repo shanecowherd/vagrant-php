@@ -9,11 +9,11 @@ Download Virtual Box 4.1 (currently 4.2 is not supported)
 
 Note: all settings are stored in ``` ~/.vagrant.d ```. If you want to do a clean install, just remove that folder.
 
-### Create a folder
+### Clone the repo
 ===========
 ```bash
-mkdir dev_environment
-cd dev_environment
+git checkout git@github.com:shanecowherd/vagrant-php.git
+cd vagrant-php
 ```
 
 ### Install Guest Additions Updater for Virtual Box
