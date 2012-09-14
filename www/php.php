@@ -1,0 +1,1 @@
+<? echo "PHP is installed" ?>
