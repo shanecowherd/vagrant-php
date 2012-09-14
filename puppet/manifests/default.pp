@@ -42,13 +42,18 @@ class { 'mysql::server':
 
 
 mysql::db { 'server_logs':
+  user     => 'server_logs',
+  password => 'server_logs',
+  host     => '%',
+  grant    => ['all'],
+}
+
+mysql::db { 'development':
   user     => 'vagrant',
   password => 'vagrant',
   host     => '%',
   grant    => ['all'],
 }
-
-
 
 
 include apache
